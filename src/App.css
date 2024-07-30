@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+.btn{
+  background-color: #F6E6CB;
+  color: white;
+  padding: 8px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 1rem;
+  outline: 0;
+  color: #A0937D;
+}
+
+.btn:hover{
+  cursor: pointer;
+}
+
+

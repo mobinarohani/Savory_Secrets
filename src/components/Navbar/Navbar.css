@@ -1,0 +1,31 @@
+.navbar__Container{
+    width: 100%;
+    background-color: #B6C7AA;
+    color: white;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    padding: .2rem 1rem;
+}
+
+.navbar__left{
+    display: flex;
+    align-items: center;
+}
+
+.navbar__left span{
+    margin-left: .5rem;
+    font-size: 2rem;
+}
+
+.navbar__logo{
+    width: 3rem;
+}
+
+.navbar__right li {
+    display: inline-block;
+    margin: 5px 20px;
+    font-size: 16px;
+}
