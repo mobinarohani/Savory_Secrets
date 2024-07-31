@@ -1,0 +1,39 @@
+.about{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.about-left{
+    flex-basis: 40%;
+}
+
+.about-right{
+    flex-basis: 56%;
+}
+
+.about-img{
+    width: 100%;
+    border-radius: .5rem;
+}
+
+.about-right-title{
+    font-weight:900;
+    font-size: 20px;
+    color: #554c3f;
+    margin-bottom: 1.5rem;
+}
+
+.about-right-phone{
+    font-size: 25px;
+    color:#A0937D;
+    margin-bottom: 2rem;
+}
+
+.about-right p{
+    margin-bottom: 2rem;
+    color:#A0937D;
+    text-align: justify;
+}

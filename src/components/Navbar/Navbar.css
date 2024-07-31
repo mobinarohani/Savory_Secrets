@@ -1,13 +1,12 @@
-.navbar__Container{
+nav{
     width: 100%;
-    background-color: #B6C7AA;
     color: white;
-    position: sticky;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 10;
-    padding: .2rem 1rem;
+    padding-top: .5rem ;
 }
 
 .navbar__left{
@@ -28,4 +27,10 @@
     display: inline-block;
     margin: 5px 20px;
     font-size: 16px;
+}
+
+.navbar__Container{
+    background-color: #B6C7AA;
+    transition:all .5s ease;
+    padding-bottom: .5rem ;
 }

@@ -10,16 +10,29 @@
 .btn{
   background-color: #F6E6CB;
   color: white;
-  padding: 8px 20px;
+  padding: 10px 20px;
   font-size: 16px;
   border: none;
   border-radius: 1rem;
   outline: 0;
   color: #A0937D;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn:hover{
   cursor: pointer;
 }
 
+.app-container{
+  width: 100%;
+  min-height: 100vh;
+  background:linear-gradient(to right ,rgba(0,0,0,.7),rgba(0,0,0,.7)) ,url('./img/header-5-1.jpg') 0 70% / cover;
+}
+
+.container{
+  padding-left: 10%;
+  padding-right: 10%;
+}
 
