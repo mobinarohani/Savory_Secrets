@@ -1,0 +1,63 @@
+.testimonials{
+    margin: 80px auto;
+    padding: 0 80px;
+    position: relative;
+}
+
+.next-btn,
+.back-btn{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 3rem !important;
+    cursor: pointer;
+    background-color: #B6C7AA;
+    color: #fff !important;
+}
+
+.back-btn{
+    right: auto;
+    left: 0;
+}
+
+.slider{
+    overflow: hidden;
+}
+
+.slider ul{
+    display: flex;
+    width: 200%;
+    overflow-x: hidden;
+    transition: all .5s ease;
+}
+
+.slider ul li{
+    list-style: none;
+    width: 50%;
+    padding: 20px;
+}
+
+.slid{
+    box-shadow: 0 0 20px rgba(0,0,0,.05);
+    padding: 40px;
+    border-radius: .5rem;
+    color: #554c3f !important;
+    line-height: 1.4;
+}
+
+.slid img{
+    width: 85%;
+    border: 1.5px solid #A0937D;
+    margin: .8rem 0;
+}
+
+.userInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}

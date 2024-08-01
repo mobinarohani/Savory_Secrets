@@ -17,8 +17,13 @@
   outline: 0;
   color: #A0937D;
   display: inline-flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
+}
+
+.btn-icon{
+  font-size: 1.2rem !important;
+  margin-left: .2rem;
 }
 
 .btn:hover{
