@@ -29,35 +29,103 @@
 
 .slider ul{
     display: flex;
-    width: 200%;
+    width: 300%;
     overflow-x: hidden;
     transition: all .5s ease;
 }
 
-.slider ul li{
-    list-style: none;
-    width: 50%;
-    padding: 20px;
-}
 
 .slid{
+    list-style: none;
+    width: 90%;
     box-shadow: 0 0 20px rgba(0,0,0,.05);
-    padding: 40px;
     border-radius: .5rem;
     color: #554c3f !important;
-    line-height: 1.4;
+    line-height: 1.5;
+    margin: 1rem;
 }
 
 .slid img{
-    width: 85%;
+    border-radius: 10rem;
+    width: 50%;
     border: 1.5px solid #A0937D;
-    margin: .8rem 0;
 }
 
 .userInfo{
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     font-size: 15px;
+    padding: 1rem .5rem;
+    font-size: 1.3rem;
+}
+
+.slid p{
+    padding: 1rem;
+}
+
+/* responsive */
+
+@media (max-width:1000px){
+
+    .testimonials{
+        padding: 0 30px;
+     }
+
+    .slider ul{
+        width: 450%;
+    }
+}
+
+@media (max-width:800px){
+    .testimonials{
+       padding: 0 40px;
+    }
+    .next-btn,.back-btn{
+        padding: 10px;
+        width: 35px !important;
+    }
+
+    .testimonials ul li{
+        padding: 10px;
+    }
+
+    .slid{
+        padding: 10px;
+        width: 50%;
+    }
+    
+    .slid img{
+        width: 50%;
+        border: 2px solid #A0937D;
+    }
+
+    .userInfo{
+        font-size: .8rem;
+    }
+}
+
+@media (max-width:600px){
+
+    .userInfo{
+        display: block;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .userInfo h3{
+        font-size: 16px;
+        margin-top: 1rem;
+    }
+
+    .slider p{
+        font-size: 12px;
+    }
+}
+
+@media (max-width:400px){
+
+    .slider ul{
+        width: 900%;
+    }
 }

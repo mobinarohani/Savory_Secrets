@@ -1,5 +1,10 @@
+.Container-about{
+    background-color: rgba(246, 230, 203,.5);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
 .about{
-    margin: 100px auto;
+    margin: 30px auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -8,6 +13,7 @@
 
 .about-left{
     flex-basis: 40%;
+    position: relative;
 }
 
 .about-right{
@@ -36,4 +42,51 @@
     margin-bottom: 2rem;
     color:#A0937D;
     text-align: justify;
+}
+
+.about-icon{
+    position: absolute !important;
+    top: 40% !important;
+    left: 45% !important;
+    color: rgb(118, 108, 91) !important;
+    font-size: 5rem !important;
+}
+
+.about-icon:hover{
+    cursor: pointer;
+}
+
+/* responsive */
+
+@media (max-width:800px){
+    .about{
+        flex-direction: column;
+    }
+
+    .about-left{
+        flex-basis: 100%;
+        margin: 20px;
+        order:2;
+    }
+
+    .about-right{
+        flex-basis: 100%;
+    }
+    
+}
+
+@media (max-width:600px){
+  
+    .about-icon{
+        left:40% !important;
+    }
+    
+}
+
+@media (max-width:400px){
+  
+    .about-icon{
+        left:35% !important;
+    }
+    
 }

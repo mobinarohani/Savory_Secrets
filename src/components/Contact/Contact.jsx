@@ -16,7 +16,7 @@ export default function Contact() {
         },3000)
     }
   return (
-    <div className='contact'>
+    <div className='contact container'>
         <div className="contact-col">
             <h3>Send a message <DraftsIcon className='contact-col-icon'/></h3>
             <p></p>
@@ -37,7 +37,7 @@ export default function Contact() {
                 <label>Write Your Messages Here</label>
                 <textarea  name='message' rows='6' placeholder='Enter your message' />
                 
-                <button className='btn' onClick={sendEmail}>Submit Now<EastIcon className='btn-icon'/></button>
+                <div className='btn' onClick={sendEmail}>Submit Now<EastIcon className='btn-icon'/></div>
             </form>
             <span>{sendMessage}</span>
         </div>

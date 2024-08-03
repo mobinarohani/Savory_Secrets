@@ -34,10 +34,25 @@
   width: 100%;
   min-height: 100vh;
   background:linear-gradient(to right ,rgba(0,0,0,.7),rgba(0,0,0,.7)) ,url('./img/header-5-1.jpg') 0 70% / cover;
+  background-position: center;
 }
 
 .container{
   padding-left: 10%;
   padding-right: 10%;
+}
+
+
+/* responsive */
+
+@media (max-width:1200px){
+  .container{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .btn{
+    padding: 14px 22px;
+  }
 }
 

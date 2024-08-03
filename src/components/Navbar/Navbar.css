@@ -34,3 +34,56 @@ nav{
     transition:all .5s ease;
     padding-bottom: .5rem ;
 }
+
+.nav__menu-icon{
+    display: none !important;
+    font-size: 2.5rem !important;
+}
+
+/* responsive */
+
+@media (max-width: 1000px){
+    .navbar__logo{
+        width: 2rem;
+    }
+
+    .navbar__right li{
+        margin: 10px 15px;
+    }
+}
+
+@media (max-width: 840px){
+    nav{
+        padding: 15px 0;
+    }
+
+    .navbar__right{
+        position: fixed;
+        top: 0;
+        right: 0px;
+        background-color: #B6C7AA;
+        z-index: -1;
+        width: 200px;
+        padding-top: 70px;
+        transition: .5s;
+        bottom: 0;
+    }
+
+    .navbar__right li{
+       display: block;
+       margin: 25px 40px;
+    }
+
+    .nav__menu-icon{
+        display: block !important;
+        cursor: pointer;
+    }
+
+    .hide-mobile-menu{
+        right: -200px;
+    }
+
+    .navbar__left span {
+        font-size: 1rem;
+    }
+}

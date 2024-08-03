@@ -16,6 +16,17 @@
     border-radius: .5rem;
 }
 
-.gallery__container-btn{
-  
+/* responsive */
+
+@media (max-width:800px){
+    .gallery__container{
+        flex-wrap: wrap;
+    }
+
+    .gallery__container-img{
+        width: 48%;
+        margin-bottom: 25px;
+    }
 }
+
+
